@@ -1,0 +1,220 @@
+main.css
+#craft{
+	width: 30%;
+	border: 2px solid black;
+	margin left: 90px;
+	margin-right:90px;
+	margin-bottom: 90px;
+	margin-top: 90px;
+	background: linear-gradient(yellow, orange);
+	box-shadow: 0px 0px 5px 5px;
+}
+#Heading{
+	font-weight: bold,italic;
+	color: rgb(17,8,2);
+	font-size: 40px;
+}
+#header{
+	font-weight: bold,italic;
+	color: rgb(17,8,2);
+	font-size: 20px;
+}
+#heads{
+	font-weight: bold,italic;
+	color: rgb(17,8,2);
+	font-size: 20px;
+}
+#Overview{
+	font-size: 16px;
+	color: rgb(17, 8, 2);
+	font-weight:bold;
+	clear: left;
+	font-family: 'Roboto', sans-serif;
+}
+#boxing{
+	font-size: 16px;
+	color: rgb(17, 8, 2);
+	font-weight:bold;
+	clear: left;
+	font-family: 'Roboto', sans-serif;
+}
+#navbar{
+	background-color: #333;
+  overflow: hidden;
+}
+#navbar a{
+	float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover{
+	 background-color: #e30e4e;
+  color: black;
+}
+#navbar a.active{
+background-color: #e30e4e;
+  color: white;
+}
+body{
+	background: linear-gradient(orange, brown, purple, yellow)
+}
+#boxes{
+	height: 30%
+	width: 1000px;
+	border: 2px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: linear-gradient(yellow, orange);
+	box-shadow: 0px 0px 5px 5px;
+}
+#bags{
+	height: 30%
+	width: 1000px;
+	border: 2px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: linear-gradient(yellow, orange);
+	box-shadow: 0px 0px 5px 5px;
+}
+
+.box{
+	width: 500px;
+	height: 500px;
+	border: 5px solid black;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	margin-right: 90px;
+	margin-left: 360px;
+	border-radius: 250px;
+	background-image: linear-gradient(purple,blue, purple);
+}
+#Title{
+	font-size: 100px;
+	color: rgb(17, 8, 2);
+	font-weight:bold;
+	clear: left;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 125px;
+	margin-left: 125px;
+	margin-bottom: 75px;
+	margin-top: 75px;
+}
+#heading{
+	font-size: 20px;
+    color: rgb(17, 8, 2);
+	font-weight:bold;
+	clear: left;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 125px;
+	margin-left: 125px;
+	margin-bottom: 75px;
+	margin-top: 75px;
+}
+#geo{
+	height: 30%
+	width: 1000px;
+	border: 2px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: linear-gradient(purple,blue,purple);
+	box-shadow: 0px 0px 5px 5px;
+}
+#huh{
+	font-style: italic;
+	font-size: 25px
+}
+#burrow{
+	height: 30%
+	width: 1000px;
+	border: 2px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: linear-gradient(yellow,orange,yellow);
+	box-shadow: 0px 0px 5px 5px;
+}
+#bold{
+	font-size: 24px;
+	color: rgb(17, 8, 2);
+	font-weight:bold;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-image: linear-gradient(blue,purple);
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+textarea {
+  width: 350px;
+  height: 100px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
+label {
+  display: block;
+  font-size: 1.252em;
+  font-weight: bold;
+  margin-top: 20px;
+
+}
+
+#checkbox-label {
+	display: inline-block;
+	font-size: 1em;
+}
+
+#check-smash {
+	margin-bottom: 20px;
+}

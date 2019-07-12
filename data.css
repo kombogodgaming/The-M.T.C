@@ -1,0 +1,139 @@
+data.css
+#navbar{
+	background-color: #333;
+  overflow: hidden;
+}
+#navbar a{
+	float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover{
+	 background-color: #e30e4e;
+  color: black;
+}
+#navbar a.active{
+background-color: #e30e4e;
+  color: white;
+}
+#blacks{
+	height: 30%
+	width: 1000px;
+	border: 2px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: linear-gradient(yellow,orange,yellow);
+	box-shadow: 0px 0px 5px 5px;
+}
+#boxing{
+	font-size: 16px;
+	color: rgb(17, 8, 2);
+	font-weight:bold;
+	clear: left;
+	font-family: 'Roboto', sans-serif;
+}
+#heading{
+	font-size: 20px;
+	color: purple;
+	font-weight:bold;
+	clear: left;
+}
+#questions{
+	font-size: 20px;
+	color: rgb(17, 8, 2);
+	font-weight:bold;
+	clear: left;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-image: linear-gradient(blue,purple);
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+label {
+  display: block;
+  font-size: 1.252em;
+  font-weight: bold;
+  margin-top: 20px;
+
+}
+
+#checkbox-label {
+	display: inline-block;
+	font-size: 1em;
+}
+#dox{
+	height: 30%
+	width: 1000px;
+	border: 2px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: linear-gradient(yellow,orange,yellow);
+	box-shadow: 0px 0px 5px 5px;
+	font-size: 10px;
+	color: rgb(17, 8, 2);
+	font-weight:bold;
+	clear: left;
+	font-family: 'Roboto', sans-serif;
+}
+
+#check-smash {
+	margin-bottom: 20px;
+}
+#Listing{
+	height: 30%
+	width: 1000px;
+	border: 2px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: linear-gradient(yellow,orange,yellow);
+	box-shadow: 0px 0px 5px 5px;
+}
